@@ -3,6 +3,7 @@ import NavBar from "./NavBar.vue";
 import Footer from "./Footer.vue";
 import About from "./About.vue";
 import Projects from "./Projects.vue";
+import Timeline from "./Timeline.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Projects from "./Projects.vue";
         </div>
         <About />
         <Projects />
+        <Timeline />
     </div>
     <Footer />
 </template>

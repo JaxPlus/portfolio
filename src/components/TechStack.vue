@@ -62,7 +62,7 @@ function hideTooltip(): void {
 </script>
 
 <template>
-    <div class="w-3/4 mt-8 m-4 rounded-lg border-2 border-white grid grid-cols-9 justify-items-center">
+    <div class="w-3/4 mt-8 m-4 rounded-lg border-2 border-white bg-black grid grid-cols-9 justify-items-center">
         <!--    JS    -->
         <div class="relative w-full flex justify-center items-center">
             <svg @mouseenter="showTooltip('JavaScript')" @mouseleave="hideTooltip()" class="h-6 md:h-8 m-1 md:m-2.5 hover:scale-120 transition" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
