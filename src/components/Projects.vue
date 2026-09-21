@@ -11,12 +11,19 @@ import Project from "./Project.vue";
             <Project class="place-self-end" />
             <Project />
         </div>
-        <a class="w-fit flex justify-center items-center cursor-pointer group">
-            {{ $t("more_projects") }}
+        <a href="https://github.com/JaxPlus?tab=repositories" target="_blank" class="w-fit flex justify-center items-center cursor-pointer group">
+            {{ $t("more_projects_github") }}
             <svg class="h-5 w-5 ml-1 transition-all group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M0 0h24v24H0z" fill="none" />
                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />
             </svg>
         </a>
+<!--        <a href="https://git.disroot.org/JaxPlus?tab=repositories" target="_blank" class="w-fit flex justify-center items-center cursor-pointer group">-->
+<!--            {{ $t("more_projects_disroot") }}-->
+<!--            <svg class="h-5 w-5 ml-1 transition-all group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">-->
+<!--                <path d="M0 0h24v24H0z" fill="none" />-->
+<!--                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16m-7-7l7 7l-7 7" />-->
+<!--            </svg>-->
+<!--        </a>-->
     </div>
 </template>

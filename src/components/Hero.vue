@@ -4,6 +4,7 @@ import Footer from "./Footer.vue";
 import About from "./About.vue";
 import Projects from "./Projects.vue";
 import Timeline from "./Timeline.vue";
+import Contact from "./Contact.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Timeline from "./Timeline.vue";
         <About />
         <Projects />
         <Timeline />
+        <Contact />
     </div>
     <Footer />
 </template>

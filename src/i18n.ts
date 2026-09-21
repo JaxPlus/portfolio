@@ -13,7 +13,8 @@ i18next
                     about: "About",
                     about_desc: "I'm programmer from Poland, I've experience in creating websites and data bases. I've learned those concepts in technical school and during my placements as well as on my own.\n",
                     projects_title: "Projects",
-                    more_projects: "View all projects",
+                    more_projects_github: "View all GitHub projects",
+                    more_projects_disroot: "View all Disroot projects",
                     timeline_education: "Education",
                     timeline_experience: "Experience",
                     title_edu_1: "Wyższa Szkoła Informatyki i Zarządzania",
@@ -24,6 +25,7 @@ i18next
                     date_exp_1: "03.2024",
                     title_exp_2: "Rocksoft",
                     date_exp_2: "05.2023",
+                    contact_title: "Contact",
                 }
             },
             pl: {
@@ -33,7 +35,8 @@ i18next
                     about: "O mnie",
                     about_desc: "Jestem programistą z Polski, mam doświadczenie w tworzeniu stron internetowych i baz danych. Uczyłem się tych konceptów w technikum i podczas moich praktyk zawodowych jak i sam z siebie.\n",
                     projects_title: "Projekty",
-                    more_projects: "Zobacz więcej projektów",
+                    more_projects_github: "Zobacz więcej projektów na GitHub",
+                    more_projects_disroot: "Zobacz więcej projektów na Disroot",
                     timeline_education: "Edukacja",
                     timeline_experience: "Doświadczenie",
                     title_edu_1: "Wyższa Szkoła Informatyki i Zarządzania",
@@ -44,6 +47,7 @@ i18next
                     date_exp_1: "03.2024",
                     title_exp_2: "Rocksoft",
                     date_exp_2: "05.2023",
+                    contact_title: "Kontakt"
                 }
             }
         }
