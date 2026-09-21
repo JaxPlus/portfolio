@@ -14,10 +14,10 @@ import Contact from "./Contact.vue";
             <h1 class="text-7xl whitespace-pre-line m-2 text-center">{{ $t("hero_welcome") }}</h1>
             <p class="m-2 text-center w-4/5 md:w-fit">{{ $t("hero_subtitle") }}</p>
         </div>
-        <About />
-        <Projects />
-        <Timeline />
-        <Contact />
+        <About id="about" />
+        <Projects id="projects" />
+        <Timeline id="timeline" />
+        <Contact id="contact" />
     </div>
     <Footer />
 </template>
