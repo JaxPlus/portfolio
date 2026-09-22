@@ -7,12 +7,14 @@ import Project from "./Project.vue";
         <h2 class="m-2 text-4xl text-center">{{ $t("projects_title") }}</h2>
         <div class="w-full m-2 p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             <Project project-title="scribble attack!" :project-description="$t('scribble_attack_project_desc')"
+                     img-path="bg-[url('./assets/projects/')]"
                      :tags="[
                          'Godot',
                          'GDScript'
                      ]"
                      live-link="https://carnabiz.itch.io/scribble-attack" class="place-self-end" />
             <Project project-title="Food Factory Game" :project-description="$t('food_factory_project_desc')"
+                     img-path="bg-[url('./assets/projects/')]"
                      :tags="[
                          'Unity',
                          'C#',
@@ -20,6 +22,7 @@ import Project from "./Project.vue";
                      ]"
                      repo-link="https://github.com/JaxPlus/FoodFactoryGame" />
             <Project project-title="Project Flash" :project-description="$t('flash_project_desc')"
+                     img-path="bg-[url('./assets/projects/')]"
                      :tags="[
                          'Vue',
                          'TypeScript',
@@ -28,6 +31,7 @@ import Project from "./Project.vue";
                      ]"
                      repo-link="https://github.com/JaxPlus/ProjectFlash" class="place-self-end" />
             <Project project-title="Anime Recommendations" :project-description="$t('anime_recommendations_desc')"
+                     img-path="bg-[url('./assets/projects/animerecommendations.png')]"
                      :tags="[
                          'Vue',
                          'TypeScript',
