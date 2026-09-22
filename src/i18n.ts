@@ -13,6 +13,10 @@ i18next
                     about: "About",
                     about_desc: "I'm programmer from Poland, I've experience in creating websites and data bases. I've learned those concepts in technical school and during my placements as well as on my own.\n",
                     projects_title: "Projects",
+                    scribble_attack_project_desc: "Game created for game jam with team.",
+                    food_factory_project_desc: "Game created for school project.",
+                    flash_project_desc: "Website for school project with database integration.",
+                    anime_recommendations_desc: "Personal project created to learn api.",
                     more_projects_github: "View all GitHub projects",
                     more_projects_disroot: "View all Disroot projects",
                     timeline_education: "Education",
@@ -26,6 +30,10 @@ i18next
                     title_exp_2: "Rocksoft",
                     date_exp_2: "05.2023",
                     contact_title: "Contact",
+                    contact_name: "Your name:",
+                    contact_email: "Your email:",
+                    contact_message: "Your message:",
+                    contact_send: "Send",
                 }
             },
             pl: {
@@ -35,6 +43,10 @@ i18next
                     about: "O mnie",
                     about_desc: "Jestem programistą z Polski, mam doświadczenie w tworzeniu stron internetowych i baz danych. Uczyłem się tych konceptów w technikum i podczas moich praktyk zawodowych jak i sam z siebie.\n",
                     projects_title: "Projekty",
+                    scribble_attack_project_desc: "Gra stworzona na game jam z drużyną.",
+                    food_factory_project_desc: "Gra stworzona jako projekt z szkoły.",
+                    flash_project_desc: "Strona na projekt z szkoły z integracją z bazą danych.",
+                    anime_recommendations_desc: "Personalny projekt stworzony aby nauczyć się api.",
                     more_projects_github: "Zobacz więcej projektów na GitHub",
                     more_projects_disroot: "Zobacz więcej projektów na Disroot",
                     timeline_education: "Edukacja",
@@ -47,7 +59,11 @@ i18next
                     date_exp_1: "03.2024",
                     title_exp_2: "Rocksoft",
                     date_exp_2: "05.2023",
-                    contact_title: "Kontakt"
+                    contact_title: "Kontakt",
+                    contact_name: "Imię:",
+                    contact_email: "Email:",
+                    contact_message: "Wiadomość:",
+                    contact_send: "Wyślij",
                 }
             }
         }

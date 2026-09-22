@@ -6,3 +6,4 @@ Icons used:
 - [Catppuccin Icons](https://github.com/catppuccin/vscode-icons)
 - [Charm Icons](https://github.com/jaynewey/charm-icons)
 - [Akar Icons](https://github.com/artcoholic/akar-icons)
+- [Bootstrap Icons](https://github.com/twbs/icons)
