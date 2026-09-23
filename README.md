@@ -1,6 +1,9 @@
 # My personal portfolio created with Vue.js
 
 ## Credits:
+Font used:
+- [Iosevka](https://github.com/be5invis/Iosevka)
+
 Icons used:
 - [Craftwork - Basil Icons](https://www.figma.com/community/file/931906394678748246/basil-icons)
 - [Catppuccin Icons](https://github.com/catppuccin/vscode-icons)

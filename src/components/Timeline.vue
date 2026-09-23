@@ -12,10 +12,10 @@ import TimelineEpisode from "./TimelineEpisode.vue";
             </div>
             <div class="w-px h-[95%] absolute ml-auto mr-auto left-0 right-0 top-20 bg-white" />
             <div class="grid grid-cols-2">
-                <div /> <TimelineEpisode :title="$t('title_edu_1')" :date="$t('date_edu_1')" type="edu" />
-                <TimelineEpisode :title="$t('title_exp_1')" :date="$t('date_exp_1')" type="exp" class="place-self-end" /> <div />
-                <TimelineEpisode :title="$t('title_exp_2')" :date="$t('date_exp_2')" type="exp" class="place-self-end" /> <div />
-                <div /> <TimelineEpisode :title="$t('title_edu_2')" :date="$t('date_edu_2')" type="edu" />
+                <div /> <TimelineEpisode :title="$t('title_edu_1')" :date="$t('date_edu_1')" :description="[$t('desc_edu_1a')]" type="edu" />
+                <TimelineEpisode :title="$t('title_exp_1')" :date="$t('date_exp_1')" :description="[$t('desc_exp_1a'), $t('desc_exp_1b')]" type="exp" class="place-self-end" /> <div />
+                <TimelineEpisode :title="$t('title_exp_2')" :date="$t('date_exp_2')" :description="[$t('desc_exp_2a'), $t('desc_exp_2b')]" type="exp" class="place-self-end" /> <div />
+                <div /> <TimelineEpisode :title="$t('title_edu_2')" :date="$t('date_edu_2')" :description="[$t('desc_edu_2a')]" type="edu" />
             </div>
         </div>
     </div>
