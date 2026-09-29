@@ -10,7 +10,7 @@ import TimelineEpisode from "./TimelineEpisode.vue";
                 <h3 class="w-full m-4 text-2xl text-end">{{ $t("timeline_experience") }}</h3>
                 <h3 class="w-full m-4 text-2xl">{{ $t("timeline_education") }}</h3>
             </div>
-            <div class="w-px h-[95%] absolute ml-auto mr-auto left-0 right-0 top-20 bg-white" />
+            <div class="w-px h-[95%] absolute ml-auto mr-auto left-0 right-0 top-20 bg-linear-to-b from-white to-transparent" />
             <div class="grid grid-cols-2">
                 <div /> <TimelineEpisode :title="$t('title_edu_1')" :date="$t('date_edu_1')" :description="[$t('desc_edu_1a')]" type="edu" />
                 <TimelineEpisode :title="$t('title_exp_1')" :date="$t('date_exp_1')" :description="[$t('desc_exp_1a'), $t('desc_exp_1b')]" type="exp" class="place-self-end" /> <div />

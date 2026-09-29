@@ -4,7 +4,7 @@
 <template>
     <div class="w-full mb-24 flex flex-col items-center">
         <h2 class="text-4xl text-center mb-6">{{ $t("contact_title") }}</h2>
-        <div class="w-fit p-4 flex justify-center items-center border-2 rounded-2xl bg-black">
+        <div class="w-fit p-4 flex justify-center items-center border-2 rounded-2xl bg-red-2">
             <form class="flex flex-col justify-center items-center" action="https://formspree.io/f/mbglorkr" method="POST">
                 <label>
                     <span class="">{{ $t('contact_name') }}</span> <br />

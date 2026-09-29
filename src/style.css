@@ -6,6 +6,7 @@
     --color-red: #BA1F33;
     --color-dark-red-2: #421820;
     --color-red-2: #91171F;
+    --color-main: #410B13;
 }
 
 :root {
@@ -29,7 +30,7 @@
     letter-spacing: 0.18px;
     color-scheme: light dark;
     color: var(--text);
-    background: var(--bg);
+    background: var(--color-main);
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -44,7 +45,7 @@
     :root {
         --text: #fff;
         --text-h: #f3f4f6;
-        --bg: var(--color-dark-red);
+        --bg: var(--color-main);
         --border: #2e303a;
         --code-bg: #1f2028;
         --accent: #c084fc;
