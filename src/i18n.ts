@@ -24,17 +24,24 @@ i18next
                     title_edu_1: "Wyższa Szkoła Informatyki i Zarządzania",
                     date_edu_1: "10.2026 — Present",
                     desc_edu_1a: "As of writing this I will start my journey in this collage and I hope it will be good!",
+                    desc_edu_1b: "A new chapter begins. Let's see where it takes me.", // ZAMIENNIK
                     title_edu_2: "Zespół Szkół im. Władysława Szybińskiego w Cieszynie",
                     date_edu_2: "09.2021 — 04.2026",
                     desc_edu_2a: "I learned basic programming concepts here and met fantastic people.",
                     title_exp_1: "DM System Dawid Macura",
+                    job_exp_1: "Backend Developer Intern",
                     date_exp_1: "03.2024",
                     desc_exp_1a: "First time doing remote work.",
                     desc_exp_1b: "Learned about Java and Spring Boot in API and backend development.",
+                    desc_exp_1c: "Java and Spring Boot in API", // ZAMIENNIK
                     title_exp_2: "Rocksoft",
+                    job_exp_2: "Software Developer Intern",
                     date_exp_2: "05.2023",
                     desc_exp_2a: "First placements during my school, learned about working in a team and in professional environment",
                     desc_exp_2b: "Learned about Vue in mobile and web development.",
+                    desc_exp_2c: "First professional placement", // ZAMIENNIK
+                    desc_exp_2d: "Teamwork in a professional environment", // ZAMIENNIK
+                    desc_exp_2e: "Vue.js — web & mobile development", // ZAMIENNIK
                     contact_title: "Contact",
                     contact_name: "Your name:",
                     contact_email: "Your email:",
@@ -60,17 +67,24 @@ i18next
                     title_edu_1: "Wyższa Szkoła Informatyki i Zarządzania",
                     date_edu_1: "10.2026 — Teraz",
                     desc_edu_1a: "Zaczynam uczyć się na tej uczelni i mam nadzieję, że będzie dobrze!",
+                    desc_edu_1b: "Zaczyna się nowy rozdział. Zobaczymy, dokąd mnie zaprowadzi.", // ZAMIENNIK
                     title_edu_2: "Zespół Szkół im. Władysława Szybińskiego w Cieszynie",
                     date_edu_2: "09.2021 — 04.2026",
                     desc_edu_2a: "Nauczyłem się podstaw programowania i poznałem wiele wspaniałych ludzi.",
                     title_exp_1: "DM System Dawid Macura",
+                    job_exp_1: "Stażysta Backend Developer",
                     date_exp_1: "03.2024",
                     desc_exp_1a: "Pierwszy raz w pracy zdalnej.",
                     desc_exp_1b: "Nauczyłem się o Javie i Spring Boot'ie, żeby stworzyć API i backend.",
+                    desc_exp_1c: "Java i Spring Boot w API", // ZAMIENNIK
                     title_exp_2: "Rocksoft",
+                    job_exp_2: "Stażysta Software Developer",
                     date_exp_2: "05.2023",
                     desc_exp_2a: "Moje pierwsze praktyki, nauczyłem się pracować w zespole i w profesjonalnym środowisku.",
                     desc_exp_2b: "Zdobyłem wiedzę na temat Vue w kontekście tworzenia aplikacji mobilnych i internetowych.",
+                    desc_exp_2c: "Pierwsza praktyka zawodowa", // ZAMIENNIK
+                    desc_exp_2d: "Praca zespołowa w środowisku zawodowym", // ZAMIENNIK
+                    desc_exp_2e: "Vue.js — tworzenie aplikacji internetowych i mobilnych", // ZAMIENNIK
                     contact_title: "Kontakt",
                     contact_name: "Imię:",
                     contact_email: "Email:",

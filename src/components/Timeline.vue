@@ -12,9 +12,9 @@ import TimelineEpisode from "./TimelineEpisode.vue";
             </div>
             <div class="w-px h-[95%] absolute ml-auto mr-auto left-0 right-0 top-20 bg-linear-to-b from-white to-transparent" />
             <div class="grid grid-cols-2">
-                <div /> <TimelineEpisode :title="$t('title_edu_1')" :date="$t('date_edu_1')" :description="[$t('desc_edu_1a')]" type="edu" />
-                <TimelineEpisode :title="$t('title_exp_1')" :date="$t('date_exp_1')" :description="[$t('desc_exp_1a'), $t('desc_exp_1b')]" type="exp" class="place-self-end" /> <div />
-                <TimelineEpisode :title="$t('title_exp_2')" :date="$t('date_exp_2')" :description="[$t('desc_exp_2a'), $t('desc_exp_2b')]" type="exp" class="place-self-end" /> <div />
+                <div /> <TimelineEpisode :title="$t('title_edu_1')" :date="$t('date_edu_1')" :description="[$t('desc_edu_1b')]" type="edu" />
+                <TimelineEpisode :title="$t('title_exp_1')" :job-post="$t('job_exp_2')" :date="$t('date_exp_1')" :description="[$t('desc_exp_1a'), $t('desc_exp_1c')]" :tags="['Java', 'Spring Boot', 'PostgreSQL']" type="exp" class="place-self-end" /> <div />
+                <TimelineEpisode :title="$t('title_exp_2')" :job-post="$t('job_exp_1')" :date="$t('date_exp_2')" :description="[$t('desc_exp_2c'), $t('desc_exp_2d'), $t('desc_exp_2e')]" :tags="['Vue', 'TypeScript', 'C#']" type="exp" class="place-self-end" /> <div />
                 <div /> <TimelineEpisode :title="$t('title_edu_2')" :date="$t('date_edu_2')" :description="[$t('desc_edu_2a')]" type="edu" />
             </div>
         </div>
