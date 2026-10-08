@@ -14,7 +14,7 @@ import Project from "./Project.vue";
                          'GDScript'
                      ]"
                      live-link="https://carnabiz.itch.io/scribble-attack" class="place-self-end" />
-            <Project project-route="/"
+            <Project project-route="/food-factory"
                      project-title="Food Factory Game" :project-description="$t('food_factory_project_desc')"
                      img-path="bg-[url('./assets/projects/foodfactory.png')]"
                      :tags="[
@@ -22,8 +22,8 @@ import Project from "./Project.vue";
                          'C#',
                          'Aseprite'
                      ]"
-                     repo-link="https://github.com/JaxPlus/FoodFactoryGame" />
-            <Project project-route="/"
+                     repo-link="https://github.com/JaxPlus/FoodFactoryGame" class="place-self-start" />
+            <Project project-route="/project-flash"
                      project-title="Project Flash" :project-description="$t('flash_project_desc')"
                      img-path="bg-[url('./assets/projects/projectflash.png')]"
                      :tags="[
@@ -33,14 +33,14 @@ import Project from "./Project.vue";
                          'Kotlin',
                      ]"
                      repo-link="https://github.com/JaxPlus/ProjectFlash" class="place-self-end" />
-            <Project project-route="/"
+            <Project project-route="/anime-recommendations"
                      project-title="Anime Recommendations" :project-description="$t('anime_recommendations_desc')"
                      img-path="bg-[url('./assets/projects/animerecommendations.png')]"
                      :tags="[
                          'Vue',
                          'TypeScript',
                      ]"
-                     repo-link="https://github.com/JaxPlus/Anime-Recommendations" live-link="https://anime-recommendations-pl.netlify.app/" />
+                     repo-link="https://github.com/JaxPlus/Anime-Recommendations" live-link="https://anime-recommendations-pl.netlify.app/" class="place-self-start" />
         </div>
         <a href="https://github.com/JaxPlus?tab=repositories" target="_blank" class="w-fit flex justify-center items-center cursor-pointer group">
             {{ $t("more_projects_github") }}

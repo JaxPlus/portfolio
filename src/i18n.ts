@@ -14,9 +14,13 @@ i18next
                     about_desc: "I'm programmer from Poland, I've experience in creating websites and data bases. I've learned those concepts in technical school and during my placements as well as on my own.\n\n I have experience in creating websites with Vue.js, and building API and backend with Java and Kotlin. In school we also used Android Studio to develop mobile apps and during my placements I worked on project developed with Vue to website and mobile.\n\n I aim to become game developer to create and share my ideas. I hope that my creations will inspire and motivate someone in the same way that I was.",
                     projects_title: "Projects",
                     scribble_attack_project_desc: "Game created for game jam with team.",
+                    scribble_attack_page_desc: "Me and two of my friends created this game for GMTK Game Jam 2026 in 4 days. It's simple tower defence with ability to move towers to other lanes.",
                     food_factory_project_desc: "Game created for school project.",
+                    food_factory_page_desc: "I created this game for school project. It's a game similar to Factorio where you automate resources to get more advanced materials and advance in tech tree. I wanted to make game where you automate different dishes so you can send them to your home planet.",
                     flash_project_desc: "Website for school project with database integration.",
+                    project_flash_page_desc: "Me and my friend created this website for school project. It's site with flash games and you can create account to personalize the site theme.",
                     anime_recommendations_desc: "Personal project created to learn api.",
+                    anime_recommendations_page_desc: "I've created this website with use of Anilist API to learn how to manage and display data with Axios.",
                     more_projects_github: "View all GitHub projects",
                     more_projects_disroot: "View all Disroot projects",
                     timeline_education: "Education",
@@ -47,6 +51,7 @@ i18next
                     contact_email: "Your email:",
                     contact_message: "Your message:",
                     contact_send: "Send",
+                    home: "Return",
                 }
             },
             pl: {
@@ -57,9 +62,13 @@ i18next
                     about_desc: "Jestem programistą z Polski, mam doświadczenie w tworzeniu stron internetowych i baz danych. Uczyłem się tych konceptów w technikum i podczas moich praktyk zawodowych jak i sam z siebie.\n\n Mam doświadczenie w tworzeniu stron internetowych przy użyciu Vue.js oraz w budowaniu API i backendu w językach Java i Kotlin. W szkole korzystałem również z Android Studio do tworzenia aplikacji mobilnych, a podczas praktyk pracowałem nad projektem obejmującym zarówno stronę internetową, jak i aplikację mobilną, realizowanym w technologii Vue.\n\n Chcę zostać twórcą gier, aby dzielić się swoimi pomysłami. Mam nadzieję, że moje dzieła kogoś zainspirują i zmotywują tak samo jak mnie.",
                     projects_title: "Projekty",
                     scribble_attack_project_desc: "Gra stworzona na game jam w zespole.",
+                    scribble_attack_page_desc: "Razem z dwójką znajomych stworzyliśmy tę grę w cztery dni na GMTK Game Jam 2026. To prosta gra typu tower defense, w której można przenosić wieżyczki na inne ścieżki.",
                     food_factory_project_desc: "Gra stworzona jako projekt z szkoły.",
+                    food_factory_page_desc: "Stworzyłem tę grę w ramach projektu szkolnego. Przypomina ona grę Factorio: polega na automatyzacji pozyskiwania zasobów w celu wytwarzania bardziej zaawansowanych materiałów i rozwoju w drzewku technologicznym. Chciałem stworzyć grę, w której automatyzuje się jedzenie, aby następnie wysyłać je na rodzimą planetę.",
                     flash_project_desc: "Strona na projekt z szkoły z integracją z bazą danych.",
+                    project_flash_page_desc: "Mój kolega i ja stworzyliśmy tę stronę w ramach projektu szkolnego. Zawiera ona gry we Flashu, a użytkownicy mogą zakładać konta, aby dostosować wygląd witryny do własnych upodobań.",
                     anime_recommendations_desc: "Personalny projekt stworzony aby nauczyć się api.",
+                    anime_recommendations_page_desc: "Stworzyłem tę stronę przy użyciu API Anilist, aby nauczyć się zarządzać danymi i wyświetlać je za pomocą biblioteki Axios.",
                     more_projects_github: "Zobacz więcej projektów na GitHub",
                     more_projects_disroot: "Zobacz więcej projektów na Disroot",
                     timeline_education: "Edukacja",
@@ -90,6 +99,7 @@ i18next
                     contact_email: "Email:",
                     contact_message: "Wiadomość:",
                     contact_send: "Wyślij",
+                    home: "Powrót",
                 }
             }
         }
