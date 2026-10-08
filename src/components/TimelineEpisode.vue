@@ -12,7 +12,7 @@ const props = defineProps<{
 </script>
 
 <template>
-    <div class="w-36 md:w-87 min-h-34 md:min-h-40 relative m-2 mx-6 p-4 rounded-2xl bg-red-2 border-2">
+    <div class="w-36 md:w-87 min-h-34 md:min-h-40 relative m-2 mx-6 p-4 rounded-2xl bg-red-2 hover:bg-red transition ease-out border-2">
         <div v-if="props.type == 'edu'" class="h-6 w-6 absolute flex justify-center items-center rounded-full left-[-2.365rem] border border-red bg-dark-red/50">
             <div class="h-2 w-2 bg-red rounded-full" />
         </div>

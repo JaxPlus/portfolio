@@ -7,6 +7,17 @@
     --color-dark-red-2: #421820;
     --color-red-2: #91171F;
     --color-main: #410B13;
+
+    --animate-write: write 0.8s ease-in-out infinite;
+    @keyframes write {
+        0%,
+        100% {
+            transform: rotate(-1deg);
+        }
+        50% {
+            transform: rotate(1deg);
+        }
+    }
 }
 
 :root {
