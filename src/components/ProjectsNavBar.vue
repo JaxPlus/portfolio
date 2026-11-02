@@ -5,7 +5,7 @@ import LanguageSwitcher from "./LanguageSwitcher.vue";
 
 <template>
     <nav class="flex items-center justify-between">
-        <RouterLink to="/">{{ $t("home") }}</RouterLink>
+        <RouterLink to="/">{{ $t("home").toLowerCase() }}</RouterLink>
         <language-switcher class="px-2" />
     </nav>
 </template>
