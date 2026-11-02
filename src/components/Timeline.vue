@@ -5,17 +5,17 @@ import TimelineEpisode from "./TimelineEpisode.vue";
 <template>
     <div class="min-h-screen w-full mb-24">
         <h2 class="text-4xl text-center mb-6">Timeline</h2>
-        <div class="w-full min-h-full relative">
+        <div class="w-full min-h-full flex flex-col items-center relative">
             <div class="flex justify-center">
                 <h3 class="w-full m-4 text-2xl text-end">{{ $t("timeline_experience") }}</h3>
                 <h3 class="w-full m-4 text-2xl">{{ $t("timeline_education") }}</h3>
             </div>
             <div class="w-px h-[95%] absolute ml-auto mr-auto left-0 right-0 top-20 bg-linear-to-b from-white to-transparent" />
-            <div class="grid grid-cols-2">
-                <div /> <TimelineEpisode :title="$t('title_edu_1')" :date="$t('date_edu_1')" :description="[$t('desc_edu_1b')]" type="edu" />
-                <TimelineEpisode :title="$t('title_exp_1')" :job-post="$t('job_exp_2')" :date="$t('date_exp_1')" :description="[$t('desc_exp_1a'), $t('desc_exp_1c')]" :tags="['Java', 'Spring Boot', 'PostgreSQL']" type="exp" class="place-self-end" /> <div />
-                <TimelineEpisode :title="$t('title_exp_2')" :job-post="$t('job_exp_1')" :date="$t('date_exp_2')" :description="[$t('desc_exp_2c'), $t('desc_exp_2d'), $t('desc_exp_2e')]" :tags="['Vue', 'TypeScript', 'C#']" type="exp" class="place-self-end" /> <div />
-                <div /> <TimelineEpisode :title="$t('title_edu_2')" :date="$t('date_edu_2')" :description="[$t('desc_edu_2a')]" type="edu" />
+            <div class="w-3/6 grid grid-cols-2">
+                <div /> <TimelineEpisode class="ml-6" :title="$t('title_edu_1')" :date="$t('date_edu_1')" :description="[$t('desc_edu_1b')]" type="edu" />
+                <TimelineEpisode :title="$t('title_exp_1')" :job-post="$t('job_exp_2')" :date="$t('date_exp_1')" :description="[$t('desc_exp_1a'), $t('desc_exp_1c')]" :tags="['Java', 'Spring Boot', 'PostgreSQL']" type="exp" class="mr-6 place-self-end" /> <div />
+                <TimelineEpisode :title="$t('title_exp_2')" :job-post="$t('job_exp_1')" :date="$t('date_exp_2')" :description="[$t('desc_exp_2c'), $t('desc_exp_2d'), $t('desc_exp_2e')]" :tags="['Vue', 'TypeScript', 'C#']" type="exp" class="mr-6 place-self-end" /> <div />
+                <div /> <TimelineEpisode class="ml-6" :title="$t('title_edu_2')" :date="$t('date_edu_2')" :description="[$t('desc_edu_2a')]" type="edu" />
             </div>
         </div>
     </div>

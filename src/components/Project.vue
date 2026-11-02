@@ -14,7 +14,7 @@ const props = defineProps<{
 </script>
 
 <template>
-    <div :class="imgPath" class="w-72 md:min-w-88 h-52 md:h-60 m-2 relative rounded-2xl bg-no-repeat bg-cover bg-center">
+    <div :class="imgPath" class="justify-self-stretch w-72 md:w-auto h-52 md:h-60 relative rounded-2xl bg-no-repeat bg-cover bg-center">
         <RouterLink :to="projectRoute" class="absolute inset-0 z-10 rounded-2xl" :aria-label="projectTitle" />
         <div class="w-full p-2 absolute rounded-b-2xl bottom-0 z-20 pointer-events-none bg-linear-to-t from-black to-transparent">
             <h3 class="mx-1">{{ projectTitle }}</h3>

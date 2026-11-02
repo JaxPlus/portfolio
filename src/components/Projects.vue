@@ -5,7 +5,7 @@ import Project from "./Project.vue";
 <template>
     <div class="w-full min-h-screen my-8 flex flex-col items-center justify-center">
         <h2 class="m-2 text-4xl text-center">{{ $t("projects_title") }}</h2>
-        <div class="w-full m-2 p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="w-3/6 my-2 grid grid-cols-1 md:grid-cols-2 gap-4">
             <Project project-route="/scribble-attack"
                      project-title="scribble attack!" :project-description="$t('scribble_attack_project_desc')"
                      img-path="bg-[url('./assets/projects/scribbleattack.png')]"
@@ -42,7 +42,7 @@ import Project from "./Project.vue";
                      ]"
                      repo-link="https://github.com/JaxPlus/Anime-Recommendations" live-link="https://anime-recommendations-pl.netlify.app/" class="place-self-start" />
         </div>
-        <a href="https://github.com/JaxPlus?tab=repositories" target="_blank" class="w-fit flex justify-center items-center cursor-pointer group">
+        <a href="https://github.com/JaxPlus?tab=repositories" target="_blank" class="w-fit my-4 flex justify-center items-center cursor-pointer group">
             {{ $t("more_projects_github") }}
             <svg class="h-5 w-5 ml-1 transition-all group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M0 0h24v24H0z" fill="none" />
